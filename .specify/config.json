@@ -1,0 +1,20 @@
+{
+  "project_name": "simplepaper.shop",
+  "ai_assistant": "claude",
+  "tools": [
+    "wsl",
+    "github_cli", 
+    "shopify_api"
+  ],
+  "integrations": {
+    "shopify": {
+      "enabled": false,
+      "store_url": "",
+      "api_key": ""
+    },
+    "posthog": {
+      "enabled": false,
+      "project_id": ""
+    }
+  }
+}

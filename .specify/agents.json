@@ -1,0 +1,30 @@
+{
+  "agents": {
+    "clerk": {
+      "name": "Clerk",
+      "description": "Order processing and customer service",
+      "role": "customer_service",
+      "capabilities": ["order_processing", "customer_communication", "issue_resolution"]
+    },
+    "product_analyst": {
+      "name": "Product Analyst", 
+      "description": "Shopify data analysis and insights",
+      "role": "data_analyst",
+      "capabilities": ["shopify_reporting", "sales_analysis", "inventory_insights"]
+    },
+    "designer": {
+      "name": "Designer",
+      "description": "Creative briefs and design task management", 
+      "role": "creative",
+      "capabilities": ["design_briefs", "midjourney_prompts", "creative_direction"]
+    },
+    "project_manager": {
+      "name": "Project Manager",
+      "description": "Dashboard and task coordination",
+      "role": "management", 
+      "capabilities": ["task_management", "dashboard_creation", "team_coordination"]
+    }
+  },
+  "ai_assistant": "claude",
+  "project_type": "ecommerce_automation"
+}

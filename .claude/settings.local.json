@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wsl:*)",
+      "Bash(apt install:*)",
+      "Bash(sh)",
+      "Bash(uvx:*)",
+      "Bash(powershell.exe:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
